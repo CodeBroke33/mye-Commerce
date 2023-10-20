@@ -18,3 +18,53 @@ background-repeat: no-repeat;
     height: 150px;
     border-radius: 70%;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: border-box;
+    padding: 50px;
+    align-items: center;
+    box-shadow: 0px 0px 20px 2px;
+    position: relative;
+}
+
+.Items ul {
+    display: flex;
+    list-style-type: none;
+}
+.Items {
+    box-align: center
+}
+
+.Items ul li:hover{
+    background-image: -moz-element(20px);
+    opacity: 0.4;
+}
+
+.Items ul li a {
+    margin: 50px;
+    color: white;
+    font-size: x-large;
+}
+
+
+.image  {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+div img {
+    width: 400px;
+    height: 300px;
+    border: 2px ;
+    border-radius: 13%;
+    box-shadow: 4px 7px 0px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+div img:h
