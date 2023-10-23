@@ -25,6 +25,21 @@
             </ul>
         </div>
     </nav>
-
+    <div class="checkout-form">
+        <h2>Checkout</h2>
+        <form action="/process_order" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br><br>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" required><br><br>
+            <label for="zip">Zip Code:</label><br>
+            <input type="text" id="zip" name="zip" required><br><br>
+            <input type="submit" value="Place Order">
+        </form>
+    </div>
 </body>
 </html>
